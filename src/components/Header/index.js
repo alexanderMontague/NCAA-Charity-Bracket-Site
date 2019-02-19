@@ -9,7 +9,8 @@ const Header = props => {
     <Fragment>
       <div className={styles.headerBar}>
         <img className={styles.logo} src={wavLogo} alt="NCAA" />
-        {props.headerTitle}
+        <div className={styles.title}>{props.headerTitle}</div>
+        <div className={styles.filler} />
       </div>
       <div className={styles.navBar}>
         <Link to="/" className={styles.navLink}>

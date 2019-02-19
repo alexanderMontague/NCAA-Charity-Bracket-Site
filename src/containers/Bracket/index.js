@@ -221,7 +221,7 @@ class Bracket extends Component {
 
             <div className={[styles.round, styles.roundThree].join(" ")}>
               <div className={styles.roundDetails}>
-                Round 3 (Sweet Sixteen)
+                Sweet Sixteen
                 <br />
                 <span className={styles.date}>March 22</span>
               </div>
@@ -259,9 +259,32 @@ class Bracket extends Component {
               </ul>
             </div>
             {/* <!-- END ROUND THREE -->		 */}
+            <div className={[styles.round, styles.roundThree].join(" ")}>
+              <div className={styles.roundDetails}>
+                Final Four
+                <br />
+                <span className={styles.date}>March 22</span>
+              </div>
+              <ul className={styles.matchup}>
+                <li className={[styles.team, styles.teamTop].join(" ")}>
+                  &nbsp;<span className={styles.score}>&nbsp;</span>
+                </li>
+                <li className={[styles.team, styles.teamBottom].join(" ")}>
+                  &nbsp;<span className={styles.score}>&nbsp;</span>
+                </li>
+              </ul>
+              <ul className={styles.matchup}>
+                <li className={[styles.team, styles.teamTop].join(" ")}>
+                  &nbsp;<span className={styles.score}>&nbsp;</span>
+                </li>
+                <li className={[styles.team, styles.teamBottom].join(" ")}>
+                  &nbsp;<span className={styles.score}>&nbsp;</span>
+                </li>
+              </ul>
+            </div>
           </div>
 
-          <div className={styles.champion}>
+          {/* <div className={styles.champion}>
             <div className={styles.semis}>
               <div className={styles.roundDetails}>
                 west semifinals <br />
@@ -276,21 +299,7 @@ class Bracket extends Component {
                 </li>
               </ul>
             </div>
-            {/* <div className={styles.final}>
-              <i className={[styles.fa, styles.faTrophy].join(" ")} />
-              <div className={styles.roundDetails}>
-                championship <br />
-                <span className={styles.date}>March 30 - Apr. 1</span>
-              </div>
-              <ul className={[styles.matchup, styles.championship].join(" ")}>
-                <li className={[styles.team, styles.teamTop].join(" ")}>
-                  &nbsp;<span className={styles.vote}>&nbsp;</span>
-                </li>
-                <li className={[styles.team, styles.teamBottom].join(" ")}>
-                  &nbsp;<span className={styles.vote}>&nbsp;</span>
-                </li>
-              </ul>
-            </div> */}
+
             <div className={styles.semis}>
               <div className={styles.roundDetails}>
                 east semifinals <br />
@@ -305,9 +314,9 @@ class Bracket extends Component {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
 
-          <div className={styles.champion}>
+          {/* <div className={styles.champion}>
             <div className={styles.semis}>
               <div className={styles.roundDetails}>
                 west semifinals <br />
@@ -322,21 +331,7 @@ class Bracket extends Component {
                 </li>
               </ul>
             </div>
-            {/* <div className={styles.final}>
-              <i className={[styles.fa, styles.faTrophy].join(" ")} />
-              <div className={styles.roundDetails}>
-                championship <br />
-                <span className={styles.date}>March 30 - Apr. 1</span>
-              </div>
-              <ul className={[styles.matchup, styles.championship].join(" ")}>
-                <li className={[styles.team, styles.teamTop].join(" ")}>
-                  &nbsp;<span className={styles.vote}>&nbsp;</span>
-                </li>
-                <li className={[styles.team, styles.teamBottom].join(" ")}>
-                  &nbsp;<span className={styles.vote}>&nbsp;</span>
-                </li>
-              </ul>
-            </div> */}
+
             <div className={styles.semis}>
               <div className={styles.roundDetails}>
                 east semifinals <br />
@@ -351,12 +346,36 @@ class Bracket extends Component {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
 
           <div className={[styles.split, styles.splitTwo].join(" ")}>
             <div className={[styles.round, styles.roundThree].join(" ")}>
               <div className={styles.roundDetails}>
-                Round 3 (Sweet Sixteen)
+                Final Four
+                <br />
+                <span className={styles.date}>March 22</span>
+              </div>
+              <ul className={styles.matchup}>
+                <li className={[styles.team, styles.teamTop].join(" ")}>
+                  &nbsp;<span className={styles.score}>&nbsp;</span>
+                </li>
+                <li className={[styles.team, styles.teamBottom].join(" ")}>
+                  &nbsp;<span className={styles.score}>&nbsp;</span>
+                </li>
+              </ul>
+              <ul className={styles.matchup}>
+                <li className={[styles.team, styles.teamTop].join(" ")}>
+                  &nbsp;<span className={styles.score}>&nbsp;</span>
+                </li>
+                <li className={[styles.team, styles.teamBottom].join(" ")}>
+                  &nbsp;<span className={styles.score}>&nbsp;</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className={[styles.round, styles.roundThree].join(" ")}>
+              <div className={styles.roundDetails}>
+                Sweet Sixteen
                 <br />
                 <span className={styles.date}>March 22</span>
               </div>
