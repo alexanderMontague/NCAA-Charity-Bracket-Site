@@ -19,6 +19,7 @@ class Bracket extends Component {
               <ul className={styles.matchup}>
                 <li className={[styles.team, styles.teamTop].join(" ")}>
                   Duke<span className={styles.score}>76</span>
+                  <div className={styles.teamOwner}>Steve Montague</div>
                 </li>
                 <li className={[styles.team, styles.teamBottom].join(" ")}>
                   Virginia<span className={styles.score}>82</span>
@@ -569,14 +570,30 @@ class Bracket extends Component {
 
         <div className={styles.finalsContainer}>
           <div className={styles.finalFourBottom}>
+            <div className={styles.roundDetails}>
+              Final Four
+              <br />
+              <span className={styles.date}>March 16</span>
+            </div>
             <div className={styles.finalTeam}>TEST</div>
             <div className={styles.finalTeam}>TEST</div>
           </div>
           <div className={styles.finalsBottom}>
-            <div className={styles.finalTeam}>North Carolina (Steve)</div>
-            <div className={styles.finalTeam}>UCLA (Haley)</div>
+            <div className={styles.roundDetails}>
+              Championship
+              <br />
+              <span className={styles.date}>March 24</span>
+            </div>
+            <div className={styles.finalTeam}>North Carolina</div>
+            <span className={styles.vs}>vs</span>
+            <div className={styles.finalTeam}>UCLA</div>
           </div>
           <div className={styles.finalFourBottom}>
+            <div className={styles.roundDetails}>
+              Final Four
+              <br />
+              <span className={styles.date}>March 16</span>
+            </div>
             <div className={styles.finalTeam}>TEST</div>
             <div className={styles.finalTeam}>TEST</div>
           </div>
