@@ -60,6 +60,7 @@
   -webkit-flex-direction: row;
   flex-direction: row;
   justify-content: center;
+  margin-top: 25px;
 }
 .split {
   display: block;
@@ -104,8 +105,20 @@
   width: 95%;
   width: 30.8333%\9;
 }
-.splitTwo {
+
+.finalFour {
+  display: block;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  width: 30.8333%\9;
+  // background-color: #fff;
+  // box-shadow: none;
+  // box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  // opacity: 0.45;
 }
+
 .splitOne .round {
   margin: 0 2.5% 0 0;
 }
@@ -120,6 +133,28 @@
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
+.FFmatchup {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  height: 60px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 0 5px;
+  height: 25px;
+  background-color: #fff;
+  box-shadow: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  opacity: 0.45;
+}
+
+.finalFourContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+
 .score {
   font-size: 11px;
   text-transform: uppercase;
@@ -287,7 +322,6 @@
     order: 3;
   }
   .split {
-    border-bottom: 1px solid #b6b6b6;
     padding-bottom: 20px;
   }
   .hero p.intro {
@@ -308,6 +342,9 @@
     margin: 25px 2.5%;
   }
   .round {
+    width: 21%;
+  }
+  .finalFour {
     width: 21%;
   }
   .current {

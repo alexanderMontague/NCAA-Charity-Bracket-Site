@@ -261,116 +261,56 @@ class Bracket extends Component {
             {/* <!-- END ROUND THREE -->		 */}
             <div className={[styles.round, styles.roundThree].join(" ")}>
               <div className={styles.roundDetails}>
-                Final Four
+                Elite Eight
                 <br />
                 <span className={styles.date}>March 22</span>
               </div>
-              <ul className={styles.matchup}>
-                <li className={[styles.team, styles.teamTop].join(" ")}>
-                  &nbsp;<span className={styles.score}>&nbsp;</span>
-                </li>
-                <li className={[styles.team, styles.teamBottom].join(" ")}>
-                  &nbsp;<span className={styles.score}>&nbsp;</span>
-                </li>
-              </ul>
-              <ul className={styles.matchup}>
-                <li className={[styles.team, styles.teamTop].join(" ")}>
-                  &nbsp;<span className={styles.score}>&nbsp;</span>
-                </li>
-                <li className={[styles.team, styles.teamBottom].join(" ")}>
-                  &nbsp;<span className={styles.score}>&nbsp;</span>
-                </li>
-              </ul>
+              <div className={styles.finalFourContainer}>
+                <ul className={styles.matchup}>
+                  <li className={[styles.team, styles.teamTop].join(" ")}>
+                    &nbsp;<span className={styles.score}>&nbsp;</span>
+                  </li>
+                  <li className={[styles.team, styles.teamTop].join(" ")}>
+                    &nbsp;<span className={styles.score}>&nbsp;</span>
+                  </li>
+                </ul>
+                <ul className={styles.matchup}>
+                  <li className={[styles.team, styles.teamTop].join(" ")}>
+                    &nbsp;<span className={styles.score}>&nbsp;</span>
+                  </li>
+                  <li className={[styles.team, styles.teamTop].join(" ")}>
+                    &nbsp;<span className={styles.score}>&nbsp;</span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-
-          {/* <div className={styles.champion}>
-            <div className={styles.semis}>
-              <div className={styles.roundDetails}>
-                west semifinals <br />
-                <span className={styles.date}>March 26-28</span>
-              </div>
-              <ul className={[styles.matchup, styles.championship].join(" ")}>
-                <li className={[styles.team, styles.teamTop].join(" ")}>
-                  &nbsp;<span className={styles.vote}>&nbsp;</span>
-                </li>
-                <li className={[styles.team, styles.teamBottom].join(" ")}>
-                  &nbsp;<span className={styles.voteCount}>&nbsp;</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className={styles.semis}>
-              <div className={styles.roundDetails}>
-                east semifinals <br />
-                <span className={styles.date}>March 26-28</span>
-              </div>
-              <ul className={[styles.matchup, styles.championship].join(" ")}>
-                <li className={[styles.team, styles.teamTop].join(" ")}>
-                  &nbsp;<span className={styles.vote}>&nbsp;</span>
-                </li>
-                <li className={[styles.team, styles.teamBottom].join(" ")}>
-                  &nbsp;<span className={styles.vote}>&nbsp;</span>
-                </li>
-              </ul>
-            </div>
-          </div> */}
-
-          {/* <div className={styles.champion}>
-            <div className={styles.semis}>
-              <div className={styles.roundDetails}>
-                west semifinals <br />
-                <span className={styles.date}>March 26-28</span>
-              </div>
-              <ul className={[styles.matchup, styles.championship].join(" ")}>
-                <li className={[styles.team, styles.teamTop].join(" ")}>
-                  &nbsp;<span className={styles.vote}>&nbsp;</span>
-                </li>
-                <li className={[styles.team, styles.teamBottom].join(" ")}>
-                  &nbsp;<span className={styles.voteCount}>&nbsp;</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className={styles.semis}>
-              <div className={styles.roundDetails}>
-                east semifinals <br />
-                <span className={styles.date}>March 26-28</span>
-              </div>
-              <ul className={[styles.matchup, styles.championship].join(" ")}>
-                <li className={[styles.team, styles.teamTop].join(" ")}>
-                  &nbsp;<span className={styles.vote}>&nbsp;</span>
-                </li>
-                <li className={[styles.team, styles.teamBottom].join(" ")}>
-                  &nbsp;<span className={styles.vote}>&nbsp;</span>
-                </li>
-              </ul>
-            </div>
-          </div> */}
 
           <div className={[styles.split, styles.splitTwo].join(" ")}>
             <div className={[styles.round, styles.roundThree].join(" ")}>
               <div className={styles.roundDetails}>
-                Final Four
+                Elite Eight
                 <br />
                 <span className={styles.date}>March 22</span>
               </div>
-              <ul className={styles.matchup}>
-                <li className={[styles.team, styles.teamTop].join(" ")}>
-                  &nbsp;<span className={styles.score}>&nbsp;</span>
-                </li>
-                <li className={[styles.team, styles.teamBottom].join(" ")}>
-                  &nbsp;<span className={styles.score}>&nbsp;</span>
-                </li>
-              </ul>
-              <ul className={styles.matchup}>
-                <li className={[styles.team, styles.teamTop].join(" ")}>
-                  &nbsp;<span className={styles.score}>&nbsp;</span>
-                </li>
-                <li className={[styles.team, styles.teamBottom].join(" ")}>
-                  &nbsp;<span className={styles.score}>&nbsp;</span>
-                </li>
-              </ul>
+              <div className={styles.finalFourContainer}>
+                <ul className={styles.matchup}>
+                  <li className={[styles.team, styles.teamTop].join(" ")}>
+                    &nbsp;<span className={styles.score}>&nbsp;</span>
+                  </li>
+                  <li className={[styles.team, styles.teamTop].join(" ")}>
+                    &nbsp;<span className={styles.score}>&nbsp;</span>
+                  </li>
+                </ul>
+                <ul className={styles.matchup}>
+                  <li className={[styles.team, styles.teamTop].join(" ")}>
+                    &nbsp;<span className={styles.score}>&nbsp;</span>
+                  </li>
+                  <li className={[styles.team, styles.teamTop].join(" ")}>
+                    &nbsp;<span className={styles.score}>&nbsp;</span>
+                  </li>
+                </ul>
+              </div>
             </div>
 
             <div className={[styles.round, styles.roundThree].join(" ")}>
