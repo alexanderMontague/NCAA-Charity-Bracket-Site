@@ -51,17 +51,16 @@
 }
 .container {
   margin: 0 auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
   flex-direction: row;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 15px;
 }
+
+.finalsContainer {
+}
+
 .split {
   display: block;
   float: left;
@@ -119,6 +118,38 @@
   // opacity: 0.45;
 }
 
+.finalsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.finalFourBottom {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.finalsBottom {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.finalTeam {
+  width: 100%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 5px;
+  margin: 3px 0;
+  height: 25px;
+  line-height: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+}
+
 .splitOne .round {
   margin: 0 2.5% 0 0;
 }
@@ -128,7 +159,7 @@
 .matchup {
   margin: 0;
   width: 100%;
-  padding: 10px 0;
+  padding: 20px 0;
   height: 60px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -168,7 +199,7 @@
 .team {
   padding: 0 5px;
   margin: 3px 0;
-  height: 25px;
+  height: 35px;
   line-height: 25px;
   white-space: nowrap;
   overflow: hidden;
@@ -177,12 +208,12 @@
 .roundTwo .matchup {
   margin: 0;
   height: 60px;
-  padding: 50px 0;
+  padding: 70px 0;
 }
 .roundThree .matchup {
   margin: 0;
   height: 60px;
-  padding: 130px 0;
+  padding: 170px 0;
 }
 .roundDetails {
   font-family: "Roboto Condensed", sans-serif;
@@ -197,7 +228,7 @@
   background-color: #fff;
   box-shadow: none;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  opacity: 0.45;
+  // opacity: 0.45;
 }
 .current li {
   opacity: 1;

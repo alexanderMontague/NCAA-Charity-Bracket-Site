@@ -566,6 +566,21 @@ class Bracket extends Component {
             {/* <!-- END ROUND ONE -->          				 */}
           </div>
         </div>
+
+        <div className={styles.finalsContainer}>
+          <div className={styles.finalFourBottom}>
+            <div className={styles.finalTeam}>TEST</div>
+            <div className={styles.finalTeam}>TEST</div>
+          </div>
+          <div className={styles.finalsBottom}>
+            <div className={styles.finalTeam}>North Carolina (Steve)</div>
+            <div className={styles.finalTeam}>UCLA (Haley)</div>
+          </div>
+          <div className={styles.finalFourBottom}>
+            <div className={styles.finalTeam}>TEST</div>
+            <div className={styles.finalTeam}>TEST</div>
+          </div>
+        </div>
       </section>
     );
   }
