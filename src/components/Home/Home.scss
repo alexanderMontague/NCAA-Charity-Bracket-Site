@@ -1,8 +1,23 @@
 .homeContainer {
   font-family: "Open Sans", sans-serif;
-  padding: 50px 150px;
+  padding: 50px 125px;
 }
 
 .paragraphContainer {
   padding-bottom: 50px;
+}
+
+.text {
+  font-size: 12px;
+
+  @media (max-width: 905px) {
+    font-size: 25px;
+  }
+}
+
+.pic {
+  width: 75%;
+  height: 50%;
+  max-width: 650px;
+  max-height: 350px;
 }

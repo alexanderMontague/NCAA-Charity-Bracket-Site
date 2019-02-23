@@ -7,6 +7,10 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
+  @media (max-width: 905px) {
+    font-size: 20px;
+  }
 }
 
 .footerItem {
