@@ -10,7 +10,7 @@ class BracketLayout extends Component {
   render() {
     return (
       <div className={styles.appContainer}>
-        <Header headerTitle="NCAA Bracket Challenge" />
+        <Header headerTitle="Hoops for Straw" />
         <div className={styles.contentContainer}>{this.props.children}</div>
         <Footer />
       </div>

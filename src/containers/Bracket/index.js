@@ -8,37 +8,37 @@ class Bracket extends Component {
         <div id="DIV_1">
           <ul id="UL_2">
             <li id="LI_3">
-              <strong id="STRONG_4">1st ROUND</strong>March 15-16
+              <strong id="STRONG_4">1st ROUND</strong>March 21-22
             </li>
             <li id="LI_5">
-              <strong id="STRONG_6">2nd ROUND</strong>March 17-18
+              <strong id="STRONG_6">2nd ROUND</strong>March 23-24
             </li>
             <li id="LI_7">
-              <strong id="STRONG_8">SWEET 16</strong>March 22-23
+              <strong id="STRONG_8">SWEET 16</strong>March 28-29
             </li>
             <li id="LI_9">
-              <strong id="STRONG_10">ELITE EIGHT</strong>March 24-25
+              <strong id="STRONG_10">ELITE EIGHT</strong>March 30-31
             </li>
             <li id="LI_11">
-              <strong id="STRONG_12">FINAL FOUR</strong>March 31
+              <strong id="STRONG_12">FINAL FOUR</strong>April 6
             </li>
             <li id="LI_13">
-              <strong id="STRONG_14">CHAMPION</strong>April 2
+              <strong id="STRONG_14">CHAMPIONSHIP</strong>April 8
             </li>
             <li id="LI_15">
-              <strong id="STRONG_16">FINAL FOUR</strong>March 31
+              <strong id="STRONG_16">FINAL FOUR</strong>April 6
             </li>
             <li id="LI_17">
-              <strong id="STRONG_18">ELITE EIGHT</strong>March 24-25
+              <strong id="STRONG_18">ELITE EIGHT</strong>March 30-31
             </li>
             <li id="LI_19">
-              <strong id="STRONG_20">SWEET 16</strong>March 22-23
+              <strong id="STRONG_20">SWEET 16</strong>March 28-29
             </li>
             <li id="LI_21">
-              <strong id="STRONG_22">2nd ROUND</strong>March 17-16
+              <strong id="STRONG_22">2nd ROUND</strong>March 23-24
             </li>
             <li id="LI_23">
-              <strong id="STRONG_24">1st ROUND</strong>March 15-16
+              <strong id="STRONG_24">1st ROUND</strong>March 21-22
             </li>
           </ul>
           <div id="DIV_25">
@@ -1765,7 +1765,7 @@ class Bracket extends Component {
                 </div>
               </div>
               <div id="DIV_653">
-                <div id="DIV_654">San Antonio, TX</div>
+                <div id="DIV_654">Minneapolis, MN</div>
                 <div id="DIV_655">
                   <dl id="DL_656">
                     <dt id="DT_657">
@@ -1796,7 +1796,6 @@ class Bracket extends Component {
                     </dd>
                   </dl>
                 </div>
-                <div id="DIV_665">San Antonio, TX</div>
                 <div id="DIV_666">
                   <dl id="DL_667">
                     <dt id="DT_668">

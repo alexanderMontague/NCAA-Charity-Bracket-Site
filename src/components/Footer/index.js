@@ -32,7 +32,7 @@ const Footer = props => {
       </span>
       <span className={styles.footerItem}>
         <FaBasketballBall />
-        &nbsp; NCAA Bracket Challenge {new Date().getFullYear()}
+        &nbsp; Hoops for Straw {new Date().getFullYear()}
       </span>
     </div>
   );

@@ -2,13 +2,13 @@ import React, { Fragment } from "react";
 import styles from "./Header.scss";
 import { Link } from "react-router-dom";
 
-import wavLogo from "../../assets/logo.png";
+import hoopsLogo from "../../assets/hoopsLogo.png";
 
 const Header = props => {
   return (
     <Fragment>
       <div className={styles.headerBar}>
-        <img className={styles.logo} src={wavLogo} alt="NCAA" />
+        <img className={styles.logo} src={hoopsLogo} alt="NCAA" />
         <div className={styles.title}>{props.headerTitle}</div>
         <div className={styles.filler} />
       </div>

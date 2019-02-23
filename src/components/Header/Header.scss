@@ -1,8 +1,8 @@
 .headerBar {
   font-family: "Staatliches";
   font-size: 50px;
-  height: 100px;
-  background: #0a6fac;
+  height: 150px;
+  background: #1b1b1b;
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -10,29 +10,16 @@
 }
 
 .logo {
-  height: 100px;
-  width: 100px;
-
-  @media (max-width: 675px) {
-    width: 75px;
-    height: 75px;
-  }
+  height: 125px;
+  padding-left: 36px;
 }
 
 .title {
   min-width: 100px;
-
-  @media (max-width: 675px) {
-    font-size: 7vw;
-  }
 }
 
 .filler {
   min-width: 100px;
-
-  @media (max-width: 675px) {
-    min-width: 0;
-  }
 }
 
 .navBar {
@@ -41,7 +28,7 @@
   justify-content: space-around;
   align-items: center;
   height: 40px;
-  background: #0a6fac;
+  background: #1b1b1b;
   border-top: 2px solid #ffffff;
   color: #ffffff;
 }
