@@ -19,13 +19,31 @@
     />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="./src/assets/Bracket.css" type="text/css" />
+    <link rel="stylesheet" href="src/assets/Bracket.css" type="text/css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" />
 
     <!-- Title -->
-    <title>NCAA Bracket Challenge</title>
+    <title>Hoops For Straw</title>
   </head>
 
   <body>
     <div id="app" style="height:100%; min-width: 904px;"></div>
   </body>
+
+  <!-- Firebase Hosting -->
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBgU1u1WL0VZmDAYYAz4T5pzNRtKIOkLZU",
+      authDomain: "hoops-for-straw.firebaseapp.com",
+      databaseURL: "https://hoops-for-straw.firebaseio.com",
+      projectId: "hoops-for-straw",
+      storageBucket: "hoops-for-straw.appspot.com",
+      messagingSenderId: "340061745270"
+    };
+    firebase.initializeApp(config);
+  </script>
 </html>

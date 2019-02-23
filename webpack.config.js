@@ -14,7 +14,7 @@ module.exports = () => {
   return {
     entry: ["babel-polyfill", "./src/index.js"],
     output: {
-      //path: path.join(__dirname, "/dist"),
+      path: path.join(__dirname, "/dist"),
       filename: "index_bundle.js"
     },
     module: {

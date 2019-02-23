@@ -18,25 +18,12 @@ const DefaultComponent = ({ component: Component, ...rest }) => {
     />
   );
 };
-console.log(process.env.PUBLIC_URL);
 
 const routes = (
   <Switch>
-    <DefaultComponent
-      exact
-      path={process.env.PUBLIC_URL || "" + "/"}
-      component={Home}
-    />
-    <DefaultComponent
-      exact
-      path={process.env.PUBLIC_URL || "" + "/about"}
-      component={About}
-    />
-    <DefaultComponent
-      exact
-      path={process.env.PUBLIC_URL || "" + "/bracket"}
-      component={Bracket}
-    />
+    <DefaultComponent exact path={"/"} component={Home} />
+    <DefaultComponent exact path={"/about"} component={About} />
+    <DefaultComponent exact path={"/bracket"} component={Bracket} />
   </Switch>
 );
 
