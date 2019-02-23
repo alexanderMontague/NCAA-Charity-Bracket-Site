@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Footer.scss";
 
 import {
-  FaInstagram,
+  FaPhone,
   FaFacebook,
   FaEnvelope,
   FaBasketballBall
@@ -12,23 +12,12 @@ const Footer = props => {
   return (
     <div className={styles.footer}>
       <span>
-        <a
-          className={styles.footerItem}
-          href="https://www.instagram.com/washedawayvintage/"
-          rel="noopener"
-          target="_blank"
-        >
-          <FaInstagram />
-          &nbsp; Instagram
-        </a>
-      </span>
-      <span className={styles.footerItem}>
-        <FaFacebook />
-        &nbsp; Facebook
+        <FaPhone />
+        &nbsp; 905 - 802 - 1010
       </span>
       <span className={styles.footerItem}>
         <FaEnvelope />
-        &nbsp; Email
+        &nbsp; hoops4straw@hotmail.com
       </span>
       <span className={styles.footerItem}>
         <FaBasketballBall />
