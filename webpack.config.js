@@ -16,7 +16,8 @@ module.exports = () => {
     entry: ["babel-polyfill", "./src/index.js"],
     output: {
       path: path.join(__dirname, "/dist"),
-      filename: "index_bundle.js"
+      filename: "bundle.js",
+      publicPath: "/"
     },
     module: {
       rules: [

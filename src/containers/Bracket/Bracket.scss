@@ -4,6 +4,10 @@
   overflow: hidden;
   color: #fcfcfc;
 }
+.red {
+  font-size: 24px;
+  color: red;
+}
 .hero h1 {
   font-family: "Holtwood One SC", serif;
   font-weight: normal;
@@ -226,6 +230,12 @@
   font-style: italic;
 }
 
+.eliminated {
+  text-decoration: line-through;
+  opacity: 0.25 !important;
+  background: #dc143c !important;
+}
+
 .roundTwo .matchup {
   margin: 0;
   height: 60px;
@@ -266,7 +276,6 @@
 }
 .share .container {
   margin: 0 auto;
-  text-align: center;
 }
 .shareIcon {
   font-size: 24px;
