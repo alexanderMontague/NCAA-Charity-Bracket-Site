@@ -11,6 +11,8 @@ import createHashHistory from "history/createHashHistory";
 const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
 
 ReactDOM.render(
-  <Router history={hashHistory}>{Routes}</Router>,
+  <Router history={hashHistory} basename={process.env.PUBLIC_URL}>
+    {Routes}
+  </Router>,
   document.getElementById("app")
 );
